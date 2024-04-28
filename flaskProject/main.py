@@ -74,8 +74,6 @@ def main():
 
         if prediction == "Positive":
             return render_template("predict.html", message = "Positive")
-        elif prediction == "Neutral":
-            return render_template("predict.html", message = "Neutral")
         elif prediction == "Negative":
             return render_template("predict.html", message = "Negative")
         else:
